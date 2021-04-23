@@ -21,6 +21,7 @@ private slots:
     void setCountdown(int min,int sec);
     void countdown();
     void playAlert();
+    void update();
 
     void on_bPomodoro_clicked();
     void on_bShortBreak_clicked();
