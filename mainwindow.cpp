@@ -28,8 +28,7 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::playAlert(){
-    //TODO play a custom alert sound...
-    QApplication::beep();
+    QSound::play(":/audio/audio/SynthChime10.wav");
 }
 
 void MainWindow::update(){
